@@ -15,7 +15,6 @@ class Solution {
         }
         int unique_no=uniqueChars.size();
         uniqueChars.clear();
-        boolean test=true;
         int index=0;
         int[] all=new int[s.length()];
         while (index!=s.length()){
@@ -62,15 +61,5 @@ class Solution {
             max+=1;
         }
         return max;
-        // if(all.length>0){
-        //     int max=all[0];
-        //     for(int i=1;i<all.length;i++){
-        //         if(all[i]>max){
-        //             max=all[i];
-        //         }
-        //     }
-        //     return max;
-        // }
-        // return 0;
     }
 }
